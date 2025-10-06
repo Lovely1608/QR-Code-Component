@@ -1,111 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code Component</title>
-    <style>
-        *{
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>QR CODE COMPONENT</h1>
+    </header>
+    <main class="container">
+      <img
+        src="image-qr-code.png"
+        alt="visit forntEnd Mentor for image-qr-code"
+      />
 
-        .box{
-            width : 100hv;
-            height: 100vh;
-            background-color: #D6E1F0;
-           padding-top: 40px;
-            text-align: center;
-            position: relative;
-        }
-
-        div > h1{
-            font-family: outfit;
-            position: absolute;
-            left: 18em;
-        }
-
-        .container{
-            width : 20em;
-            height: 500px;
-            background-color: white;
-            position: absolute;
-            left: 570px;
-            top: 150px;
-            border-radius: 20px;
-            box-shadow: 0px 10px 20px #ccc;
-        }
-
-        img{
-            width: 90%;
-            height: 290px;
-            position: absolute;
-            left: 18px;
-            border-radius: 10px;
-            top: 20px;
-        }
-
-        .container > h2{
-            position: absolute;
-            top: 330px;
-            font-family: outfit;
-            left: 10px;
-        }
-        
-        .container > pre{
-            position: absolute;
-            top: 400px;
-            left: 30px;
-            font-family: outfit;
-            font-size: 15px;
-            color: #6e6c6ca8;
-            
-        }  
-    
-        @media (max-width : 378px){
-        
-            *{
-                padding: 0;
-                margin: 0;
-                box-sizing: border-box;
-            }
-
-        .box{
-            width: 2em;
-            height: 140vh;
-            background-color: #D6E1F0;
-            position: relative;
-        }
-
-        h1{
-            position: absolute;
-            left: 2em;
-        }
-
-        .container {
-            position: absolute;
-            left: 2.5em;
-            top: 7em;
-        }
-    }
-
-    </style>
-</head>
-<body>
-    <div class="box">
-    <h1>QR Code Component</h1>
-    <div class="container">
-        <img src="image-qr-code.png" alt="image-qr-code.png">
-
-        <h2>Improve your front-end skills by building projects</h2>
-        <pre> Scan the QR Code to visit Fronted
-    Mentor and take your coding skills to 
-    the next level</pre>
-    </div>
-</div>
-</body>
+      <h2>Improve you front-end skills by building projects</h2>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </main>
+  </body>
 </html>
